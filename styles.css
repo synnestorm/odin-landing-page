@@ -129,6 +129,13 @@ div.hero {
   width: 600px;
 }
 
+h2 {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 40px;
+  color: var(--primary);
+}
+
 section.quote {
   background-color: var(--text-two);
   width: 100%;
