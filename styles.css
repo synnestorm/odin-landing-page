@@ -22,7 +22,7 @@ body {
 header {
   background-color: var(--primary);
   width: 100%;
-  z-index: 1;
+  height: 200px;
 }
 
 div.logo {
@@ -32,9 +32,8 @@ div.logo {
   height: auto;
   border-radius: 30px;
   margin-top: 25px;
-  margin-left: 300px;
   position: relative;
-  left: 35px;
+  left: 40px;
 }
 
 a.logo {
@@ -46,10 +45,9 @@ a.logo {
 ul {
   float: right;
   padding-top: 20px;
-  margin-right: 300px;
   position: relative;
   bottom: 50px;
-  right: 25px;
+  right: 40px;
 }
 
 li {
@@ -184,9 +182,6 @@ span {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  position: relative;
-  left: 450px;
-  top: 2px;
 }
 
 section.sign-up {
@@ -241,4 +236,49 @@ p.footer {
   text-align: center;
   font-size: 15px;
   padding-top: 10px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1600px) {
+  p.quote {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  section.container {
+    gap: 5px;
+  }
+  p.quote {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media only screen and (max-width: 1154px) {
+  section.container {
+    gap: 50px;
+  }
+  div.hero {
+    position: relative;
+    left: 25px;
+  }
+  p.quote {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  p.quote {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  section.quote {
+    height: auto;
+  }
 }
