@@ -33,6 +33,8 @@ div.logo {
   border-radius: 30px;
   margin-top: 25px;
   margin-left: 300px;
+  position: relative;
+  left: 35px;
 }
 
 a.logo {
@@ -47,6 +49,7 @@ ul {
   margin-right: 300px;
   position: relative;
   bottom: 50px;
+  right: 25px;
 }
 
 li {
@@ -92,6 +95,7 @@ button[type="submit"].btn-first {
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
+  margin-top: 30px;
 }
 
 button[type="submit"].btn-first:hover {
@@ -101,7 +105,7 @@ button[type="submit"].btn-first:hover {
 
 img {
   width: 100%;
-  max-width: 600px;
+  max-width: 550px;
   display: block;
 }
 
