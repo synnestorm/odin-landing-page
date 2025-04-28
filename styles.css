@@ -173,6 +173,16 @@ p.quote {
   padding-left: 350px;
   padding-right: 350px;
   padding-top: 100px;
+  color: var(--primary);
+}
+
+span {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  left: 450px;
+  top: 2px;
 }
 
 footer {
