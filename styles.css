@@ -5,3 +5,14 @@
   --text-two: #e5e7eb;
   --secondary: #3882f6;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--main-font);
+  max-width: 1920px;
+}
