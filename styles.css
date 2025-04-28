@@ -77,6 +77,10 @@ h1 {
 p.intro {
   font-size: 18px;
   color: var(--text-two);
+  width: 500px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  padding-top: 20px;
 }
 
 button[type="submit"].btn-first {
@@ -86,7 +90,6 @@ button[type="submit"].btn-first {
   padding: 5px 20px 5px 20px;
   font-size: 18px;
   border-radius: 10px;
-  margin: 10px;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -102,9 +105,24 @@ img {
   display: block;
 }
 
+img.hero-image {
+  position: relative;
+  right: 30px;
+}
+
 section.container {
   background-color: var(--primary);
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 100px;
+}
+
+div.hero {
+  width: 600px;
 }
 
 section.quote {
