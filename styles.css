@@ -74,6 +74,28 @@ h1 {
   font-weight: 900;
 }
 
+p.intro {
+  font-size: 18px;
+  color: var(--text-two);
+}
+
+button[type="submit"].btn-first {
+  border: transparent;
+  background-color: var(--secondary);
+  color: var(--text-one);
+  padding: 5px 20px 5px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button[type="submit"].btn-first:hover {
+  background-color: var(--text-one);
+  color: var(--secondary);
+}
+
 img {
   width: 100%;
   max-width: 600px;
