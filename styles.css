@@ -198,6 +198,14 @@ section.sign-up {
   margin-bottom: 50px;
   border-radius: 10px;
   color: var(--text-one);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+div.sign-up {
+  margin-top: 40px;
 }
 
 h3 {
@@ -206,6 +214,7 @@ h3 {
 
 p.sign-up {
   font-size: 18px;
+  color: var(--text-two);
 }
 
 button[type="submit"].btn-last {
