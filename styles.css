@@ -68,6 +68,12 @@ a.link:hover {
 
 /* Styles for main */
 
+h1 {
+  color: var(--text-one);
+  font-size: 48px;
+  font-weight: 900;
+}
+
 img {
   width: 100%;
   max-width: 600px;
