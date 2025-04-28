@@ -57,6 +57,11 @@ a.link {
   text-decoration: none;
   color: var(--text-two);
   font-size: 18px;
+  transition: 0.5s;
+}
+
+a.link:hover {
+  color: var(--secondary);
 }
 
 img {
