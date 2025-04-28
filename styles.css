@@ -20,6 +20,43 @@ body {
 header {
   background-color: var(--primary);
   width: 100%;
+  z-index: 1;
+}
+
+div.logo {
+  text-align: center;
+  border: 4px solid var(--secondary);
+  width: 100px;
+  height: auto;
+  border-radius: 30px;
+  margin-top: 25px;
+  margin-left: 300px;
+}
+
+a.logo {
+  text-decoration: none;
+  color: var(--text-one);
+  font-size: 30px;
+}
+
+ul {
+  float: right;
+  padding-top: 20px;
+  margin-right: 300px;
+  position: relative;
+  bottom: 50px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  padding-right: 40px;
+}
+
+a.link {
+  text-decoration: none;
+  color: var(--text-two);
+  font-size: 18px;
 }
 
 img {
