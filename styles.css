@@ -32,3 +32,15 @@ section.container {
   background-color: var(--primary);
   width: 100%;
 }
+
+section.quote {
+  background-color: var(--text-two);
+  width: 100%;
+  height: 400px;
+}
+
+footer {
+  background-color: var(--primary);
+  width: 100%;
+  height: 100px;
+}
